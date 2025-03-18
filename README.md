@@ -54,7 +54,7 @@ df.describe()
 ```
  ---
  
-# BANK-CHURN-PREDICTION-PROJECT
+# BANK-CHURN-PREDICTION
 
 
 
