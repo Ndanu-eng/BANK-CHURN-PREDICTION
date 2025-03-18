@@ -25,13 +25,12 @@ df.describe()
 ```
 
 # Option 2
-Open the BankChurn folder link.
+Click the BankChurn folder link below then open shared inside Google drive to make sure you can access it.
 
 ```sh
 https://drive.google.com/drive/folders/1kyYj-jEOInyj-Kes1PoSz9AWVXCCSYmQ?usp=sharing
 ```
-
- **mount your Google Drive inside new notebook in Google Colab:**
+ Open a google Colab NewNotebook then Run
  
 ```python
 from google.colab import drive
