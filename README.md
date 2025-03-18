@@ -11,14 +11,16 @@ This project uses a Kaggle dataset stored in **Google Drive** for easy access by
  
  ```sh
  import pandas as pd
-# Link to the shared dataset (get it from Google Drive)
-file_url = "https://drive.google.com/drive/folders/1kyYj-jEOInyj-Kes1PoSz9AWVXCCSYmQ?usp=drive_link
-"
-# Load the dataset directly from the link
-df = pd.read_csv(https://drive.google.com/drive/folders/1kyYj-jEOInyj-Kes1PoSz9AWVXCCSYmQ?usp=drive_link
-)
 
-df.head()
+# Correct direct file link (Replace FILE_ID with your actual file ID)
+file_id = "1-6FhvYRRgceTptrIMfgvaXkq-QKw8dwf"
+file_url = f"https://drive.google.com/uc?id={file_id}"
+
+# Load the dataset
+df = pd.read_csv(file_url)
+
+# Display first 5 rows
+df.describe()
 ```
 
 # Option 2
