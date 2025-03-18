@@ -2,7 +2,7 @@
 # FOR TEAM MEMBERS
 
 ## Overview
-This project uses a  Bank churn Kaggle dataset stored in **Google Drive** for easy access by all team members. We will work collaboratively using **Google Colab**, ensuring everyone can load and analyze the dataset without downloading it locally.The dataset folder is shared through  link.
+This project uses a  Bank churn Kaggle dataset stored in **Google Drive** for easy access by all team members. We will work collaboratively using **Google Colab**, ensuring everyone can load and analyze the dataset without downloading it locally.The dataset folder is to shared through  link if you use option 2.
 
 # HOW TO USE THE DATASET
  Open Google Colab from Chrome browser  sign up and login  then create a new Notebook.
