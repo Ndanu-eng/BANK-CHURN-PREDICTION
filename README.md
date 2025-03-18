@@ -8,6 +8,7 @@ This project uses a Kaggle dataset stored in **Google Drive** for easy access by
  Open Google Colab from Chrome browser and create a new Notebook.
 
  ## Option 1
+ Direct Google Drive File Access (No Mounting Required)"
  
  ```sh
  import pandas as pd
@@ -24,6 +25,8 @@ df.describe()
 ```
 
 # Option 2
+Google Drive Mounting (Shared Folder Access)
+
  **mount your Google Drive:**
 ```python
 from google.colab import drive
