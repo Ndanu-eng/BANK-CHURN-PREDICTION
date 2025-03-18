@@ -8,7 +8,7 @@ This project uses a  Bank churn Kaggle dataset stored in **Google Drive** for ea
  Open Google Colab from Chrome browser and create a new Notebook.
 
  ## Option 1
- Direct Google Drive File Access (No Mounting Required)"
+ Direct Google Drive File Access (No Mounting Required)
  
  ```sh
  import pandas as pd
