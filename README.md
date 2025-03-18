@@ -4,11 +4,24 @@
 ## Overview
 This project uses a Kaggle dataset stored in **Google Drive** for easy access by all team members. We will work collaboratively using **Google Colab**, ensuring everyone can load and analyze the dataset without downloading it locally.
 
-## Accessing the Dataset from Google Drive
-https://drive.google.com/drive/folders/1kyYj-jEOInyj-Kes1PoSz9AWVXCCSYmQ?usp=drive_link
+# HOW TO USE THE DATASET
+ Open Google Colab from Chrome browser and create a new Notebook.
 
- # Open Google Colab from Chrome browser Signup and  login.Create a new Notebook.
+ ## Option 1
  
+ ```sh
+ import pandas as pd
+# Link to the shared dataset (get it from Google Drive)
+file_url = "https://drive.google.com/drive/folders/1kyYj-jEOInyj-Kes1PoSz9AWVXCCSYmQ?usp=drive_link
+"
+# Load the dataset directly from the link
+df = pd.read_csv(https://drive.google.com/drive/folders/1kyYj-jEOInyj-Kes1PoSz9AWVXCCSYmQ?usp=drive_link
+)
+
+df.head()
+```
+
+# Option 2
  **mount your Google Drive:**
 ```python
 from google.colab import drive
