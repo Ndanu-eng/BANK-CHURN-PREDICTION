@@ -1,5 +1,5 @@
 ---
-# FOR TEAM MEMBERS WORKFLOW
+# FOR TEAM MEMBERS 
 
 ## Overview
 This project uses a  Bank churn Kaggle dataset stored in **Google Drive** for easy access by all team members. We will work collaboratively using **Google Colab** notebooks, ensuring everyone can load and analyze the dataset without downloading it locally.
