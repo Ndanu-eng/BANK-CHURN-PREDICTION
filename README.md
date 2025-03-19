@@ -106,7 +106,11 @@ drive.mount('/content/drive')
 
 !ls -la "/content/BANK-CHURN-PREDICTION/"
 ```
+## WORK ON YOUR NOTEBOOK
 
+ Allocated according to each Person according to every Milestones.
+
+ 
 # After working on your notebook
  
 ```sh
