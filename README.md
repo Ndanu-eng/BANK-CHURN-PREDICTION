@@ -61,7 +61,7 @@ Before this rename your notebook to what you are working on i.e edaanalysis.ipyn
  !git checkout -b your-branch-name
   ```
 
-## Move the colab  file to your working directory
+## Copy the colab  file to your working directory
 
 Replace the datacleaning.ipynb with the  file you are working i.e edaanalysis.ipynb etc..
 
