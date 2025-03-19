@@ -92,21 +92,35 @@ df.describe()
  #Replace you-branch-name with what you are working on i.e Datacleaning
  !git checkout -b your-branch-name
   ```
-# After working on your notebook
+
+## Move the colab  file to your working directory
 
 ```sh
+from google.colab import drive
+drive.mount('/content/drive')
+
+!ls -la "/content/drive/My Drive/Colab Notebooks"
+!find "/content/drive/My Drive" -name "Datacleaning.ipynb"
+!mv "/content/drive/My Drive/Colab Notebooks/Datacleaning.ipynb" /content/BANK-CHURN-PREDICTION/
+```
+
+# After working on your notebook
+ 
+```sh
    # Add your changes
-   !git add your-notebook.ipynb
+   !git config --global user.email "you@example.com" #replace your gmail.
+   !git config --global user.name "You Name" #replace your name.
+   !git add your-notebook.ipynb #Replace your-notebook.ipynb with actual name
 
    # Commit your changes
-   !git commit -m "Describe your changes"
+   !git commit -m "Describe your changes" #write a message "finished data Cleaning"
    ```
 
  **Push Your Branch:**
    Push your branch to the remote repository.
 
    ```sh
-   !git push origin your-branch-name
+   !git push origin your-branch-name #replace with your actual branch-name
    ```
 **Create a Pull Request:**
    Once you are ready to merge your changes into the main branch, create a pull request on GitHub. This allows other team members to review your work before it is merged.
