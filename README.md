@@ -132,9 +132,19 @@ Click on Generate new token.
 Select the scopes or permissions you need, such as repo for full control of private repositories.
 
 Click Generate token and copy the token. You will not be able to see it again, so save it securely.
- 
 
+ **Set the Remote URL to Use HTTPS**
  
+ ```sh
+ !git remote set-url origin https://<TOKEN>@github.com/Adamsomondi/BANK-CHURN-PREDICTION.git //replace <TOKEN> with PAT keys you created.
+```
+
+**Push Your Branch Using HTTPS**
+
+```sh
+!git push origin your-branch-name # Replace with your actual branch name
+```
+
  ## Create a Pull Request
    Once you are ready to merge your changes into the main branch, create a pull request on GitHub. This allows other team members to review your work before it is merged.
 
