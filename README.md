@@ -58,10 +58,17 @@ Before this rename your notebook to what you are working on i.e edaanalysis.ipyn
  
  ```sh
  #Replace you-branch-name with what you are working on i.e edaanalysis,datacleaning etc..
- !git checkout -b your-branch-name
+ !git checkout -b your-branch-name -q #meaning quite mode
   ```
 
-## Copy the colab  file to your working directory
+## WORK ON YOUR NOTEBOOK
+
+The work is allocated according to each Person according to every Milestones.Every person Creates their notebook and works on it,Save it so we move
+To different milestone easily.
+
+You should be able to make sure you push the correct work.
+
+## Copy the colab file to your working directory
 
 Replace the datacleaning.ipynb with the  file you are working i.e edaanalysis.ipynb etc..
 
@@ -78,13 +85,6 @@ drive.mount('/content/drive')
 
 !ls -la "/content/BANK-CHURN-PREDICTION/"
 ```
-
-## WORK ON YOUR NOTEBOOK
-
-The work is allocated according to each Person according to every Milestones.Every person Creates their notebook and works on it,Save it so we move
-To different milestone easily.
-
-You should be able to make sure you push the correct work.
  
 # After working on your notebook
 
