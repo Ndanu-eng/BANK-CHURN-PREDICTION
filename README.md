@@ -113,7 +113,7 @@ drive.mount('/content/drive')
    # Add your changes
 !git config --global user.name "You Name" #replace your github name.
 !git config --global user.email "you@example.com" #replace your github gmail.
-!git add your-notebook.ipynb #Replace your-notebook.ipynb with actual notebook name
+!git add .
 
    # Commit your changes
 !git commit -m "Describe your changes" #write a message "finished data Cleaning"
@@ -122,12 +122,17 @@ drive.mount('/content/drive')
  **Push Your Branch:**
    Push your branch to the remote repository.
 
-   Generate an ssh key
+   Generate an ssh key.
 
    ```sh
-ssh-keygen -t ed25519 -C "your-email@example.com" #replace with your github image.
+ssh-keygen -t ed25519 -C "your-email@example.com" #replace with your github email.
+```
+ Get the Key
+```sh
+!cat ~/.ssh/id_ed25519.pub
 ```
 
+Add the ssh key to your Github
 
    ```sh
    !git push origin your-branch-name #replace with your actual branch-name
