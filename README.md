@@ -1,14 +1,14 @@
 ---
-# FOR TEAM MEMBERS 
+# GUIDE FOR TEAM MEMBERS 
 
 ## Overview
 This project uses a  Bank churn Kaggle dataset stored in **Google Drive** for easy access by all team members. We will work collaboratively using **Google Colab** notebooks, ensuring everyone can load and analyze the dataset without downloading it locally.
 
 ## HOW TO USE THIS GITHUB REPOSITORY AS A TEAM
 
-Open google colab new notebook From your Chrome Browser:
+Open google colab https://colab.google/
 
- https://colab.google/
+ Open new notebook
 
 Inside the first colab code cell Run:
 
@@ -33,7 +33,6 @@ Inside the first colab code cell Run:
 
 ## HOW TO USE THE DATASET AS A TEAM
 
- ## Option 1-Easy
  Insert a new second colab code cell then Run:
  
  ```sh
@@ -50,50 +49,23 @@ df = pd.read_csv(file_url)
 df.describe()
 ```
 
-# Option 2-Flexibility
-Click the BankChurn shared folder link below then open shared tab inside Google drive to make sure you can access it.
-
-```sh
-https://drive.google.com/drive/folders/1kyYj-jEOInyj-Kes1PoSz9AWVXCCSYmQ?usp=sharing
-```
-
- Open a google Colab NewNotebook then Run:
- 
-```python
-from google.colab import drive
-drive.mount('/content/gdrive')
-```
-
- **Set the dataset path:**
- 
-```python
-csv_path = "/content/gdrive/My Drive/BankChurn/Customer-Churn-Records.csv"
-```
-
- **Load the dataset in Pandas:**
- 
-```python
-import pandas as pd
-df = pd.read_csv(csv_path)
-
-# Describe the data
-df.describe()
-```
-
 ## HOW TO WORK ON YOUR OWN NOTEBOOK
 
- **Create a New Branch:**
+Before this rename your notebook to what you are working on i.e edaanalysis.ipynb
+
+ ### Create a New Branch: 
    Each team member should create their own branch to work on their notebook. This helps in keeping the main branch clean and allows for easy merging of changes.
 
- # Create a new branch
  Insert a new third cell and run:
  
  ```sh
- #Replace you-branch-name with what you are working on i.e Datacleaning
+ #Replace you-branch-name with what you are working on i.e edaanalysis
  !git checkout -b your-branch-name
   ```
 
 ## Move the colab  file to your working directory
+
+Replace the datacleaning.ipynb with your file i.e edaanalysis.ipynb
 
 ```sh
 from google.colab import drive
@@ -106,6 +78,7 @@ drive.mount('/content/drive')
 
 !ls -la "/content/BANK-CHURN-PREDICTION/"
 ```
+
 ## WORK ON YOUR NOTEBOOK
 
  Allocated according to each Person according to every Milestones.
