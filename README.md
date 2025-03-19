@@ -119,36 +119,26 @@ drive.mount('/content/drive')
 !git commit -m "Describe your changes" #write a message "finished data Cleaning"
 ```
 
- **Push Your Branch:**
+ ## Push Your Branch
  
-  Before  push your branch to the remote repository.
+  Before you push your branch to the remote repository.
 
-  **Generate an ssh key.**
-  
-Ask for help
+**Generate a PAT:**
 
-   ```sh
-ssh-keygen -t ed25519 -C "your-email@example.com" #replace with your github email.
-```
+Go to your GitHub Developer Settings. https://github.com/settings/tokens
 
- **Get the Key**
-```sh
-!cat ~/.ssh/id_ed25519.pub
-```
+Click on Generate new token.
 
-**Add the ssh key to your Github**
+Select the scopes or permissions you need, such as repo for full control of private repositories.
 
-Open Github setting-->click SSH keys -->Add the key you added.
+Click Generate token and copy the token. You will not be able to see it again, so save it securely.
+ 
 
-**push your branch**
-   ```sh
-   !git push origin your-branch-name #replace with your actual branch-name
-   ```
-
-**Create a Pull Request:**
+ 
+ ## Create a Pull Request
    Once you are ready to merge your changes into the main branch, create a pull request on GitHub. This allows other team members to review your work before it is merged.
 
- **Review and Merge:**
+ ## Reviewed and Merged
    Other team members should review the pull request. Once it is approved, it can be merged into the main branch
    
  ---
