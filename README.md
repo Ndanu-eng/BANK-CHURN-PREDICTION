@@ -90,7 +90,7 @@ df.describe()
  
  ```sh
  #Replace you-branch-name with what you are working on i.e Datacleaning
-   !git checkout -b your-branch-name
+ !git checkout -b your-branch-name
   ```
 # After working on your notebook
 
