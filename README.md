@@ -81,8 +81,7 @@ drive.mount('/content/drive')
 
 ## WORK ON YOUR NOTEBOOK
 
- Allocated according to each Person according to every Milestones.
-
+The work is allocated according to each Person according to every Milestones.
  
 # After working on your notebook
  
