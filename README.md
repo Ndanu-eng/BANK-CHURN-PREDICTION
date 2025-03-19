@@ -83,6 +83,8 @@ drive.mount('/content/drive')
 
 The work is allocated according to each Person according to every Milestones.Every person Creates their notebook and works on it,Save it so we move
 To different milestone easily.
+
+You should be able to make sure you push the correct work.
  
 # After working on your notebook
 
@@ -96,12 +98,13 @@ To different milestone easily.
 
  # Commit your changes
 !git commit -m "Updated data cleaning" #write a message "finished data Cleaning/added eda analysis"
+```
 
  ## Push Your Branch
  
  Before you push your branch to the remote repository.
 
-Generate a PAT-:
+Generate a PAT Token,
 
 Go to your GitHub Developer Settings. https://github.com/settings/tokens
 
