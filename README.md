@@ -122,6 +122,13 @@ drive.mount('/content/drive')
  **Push Your Branch:**
    Push your branch to the remote repository.
 
+   Generate an ssh key
+
+   ```sh
+ssh-keygen -t ed25519 -C "your-email@example.com" #replace with your github image.
+```
+
+
    ```sh
    !git push origin your-branch-name #replace with your actual branch-name
    ```
