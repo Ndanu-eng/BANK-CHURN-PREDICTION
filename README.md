@@ -97,11 +97,17 @@ df.describe()
 
 ```sh
 from google.colab import drive
-drive.mount('/content/drive')
+drive.mount("/content/drive", force_remount=True)
 
 !ls -la "/content/drive/My Drive/Colab Notebooks"
 !find "/content/drive/My Drive" -name "Datacleaning.ipynb"
+
+!mkdir -p "/content/BANK-CHURN-PREDICTION/"
+
 !mv "/content/drive/My Drive/Colab Notebooks/Datacleaning.ipynb" /content/BANK-CHURN-PREDICTION/
+
+!ls -la "/content/BANK-CHURN-PREDICTION/"
+
 ```
 
 # After working on your notebook
