@@ -153,7 +153,6 @@ Create a Pull Request
 # BANK-CHURN-PREDICTION
 ## Milestone 1
 
-![Screenshot](https://github.com/Adamsomondi/BANK-CHURN-PREDICTION/blob/main/images/Screenshot%202025-03-19%20031243.png)
 
 
 
