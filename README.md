@@ -123,11 +123,22 @@ Click Generate token and copy the token. You will not be able to see it again, s
 ```
 
  ## Create a Pull Request
-   Once you are ready to merge your changes into the main branch, create a pull request on GitHub. This allows other team members to review your work before it is merged.
+ Once you are ready to merge your changes into the main branch, create a pull request on GitHub. This allows other team members to review your work before it is merged.
+ 
+Go to the Repository on GitHub
+
+Navigate to the repository on GitHub (https://github.com/Adamsomondi/BANK-CHURN-PREDICTION).
+
+
+Switch to Your Branch i.e mine is datacleaning
+
+Switch to the branch you just pushed by selecting it from the branch dropdown menu.
+
+Create a Pull Request
 
  ## Reviewed and Merged
    Other team members should review the pull request. Once it is approved, it can be merged into the main branch
-   
+  
  ---
  
 # BANK-CHURN-PREDICTION
