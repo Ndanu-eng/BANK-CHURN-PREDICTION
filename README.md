@@ -57,20 +57,18 @@ Before this rename your notebook to what you are working on i.e edaanalysis.ipyn
  Insert a new third cell and run:
  
  ```sh
- #Replace you-branch-name with what you are working on i.e edaanalysis,datacleaning etc..
+ #Replace you-branch-name with what you are working on i.e edaanalysis,datacleaning, etc..
  !git checkout -b your-branch-name -q #meaning quite mode
   ```
 
 ## WORK ON YOUR NOTEBOOK
 
-The work is allocated according to each Person according to every Milestones.Every person Creates their notebook and works on it,Save it so we move
-To different milestone easily.
+Every person Creates their notebook according to the task in the milestone and works on it then pushes it.
 
-You should be able to make sure you push the correct work.
 
-## Copy the colab file to your working directory
+## Mount and Copy  your Notebook to a  working directory
 
-Replace the datacleaning.ipynb with the  file you are working i.e edaanalysis.ipynb etc..
+Replace the datacleaning.ipynb with the file you are personally working on i.e edaanalysis.ipynb etc..
 
 Insert a third cell and run:
 
@@ -104,7 +102,7 @@ drive.mount('/content/drive')
  
  Before you push your branch to the remote repository.
 
-Generate a PAT Token,
+Generate a PAT Token if you dont have any,
 
 Go to your GitHub Developer Settings. https://github.com/settings/tokens
 
@@ -112,7 +110,7 @@ Click on Generate new token the Token(classic one).
 
 Select the scopes or permissions you need, such as repo for full control of private repositories.
 
-Click Generate token and copy the token. You will not be able to see it again, <b>so save it securely</b>.
+Click Generate token and <b>copy the token<b>. You will not be able to see it again, <b>so save it securely</b>.
 
  Set the Remote URL to Use HTTPS
 
