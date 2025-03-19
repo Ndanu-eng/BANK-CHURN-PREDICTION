@@ -153,43 +153,9 @@ Create a Pull Request
 
 ![Screenshot](https://github.com/Adamsomondi/BANK-CHURN-PREDICTION/blob/main/images/Screenshot%202025-03-19%20031243.png)
 
-## Data Understanding
-
-....
-
-....
-
-....
 
 
-## Exploratory Data Analysis
 
-....
-
-....
-
-....
-
-
-## Milestone 2
-## Modelling Approach
-
-....
-
-....
-
-....
-
-## Milestone 3
-## Evaluation Metrics
-
-....
-
-....
-
-....
-
- 
 
 
 
