@@ -112,7 +112,8 @@ Click Generate token and copy the token. You will not be able to see it again, s
  **Set the Remote URL to Use HTTPS**
  
  ```sh
- !git remote set-url origin https://<TOKEN>@github.com/Adamsomondi/BANK-CHURN-PREDICTION.git //replace <TOKEN> with PAT keys you created.
+#!git remote set-url origin https://<TOKEN>@github.com/Adamsomondi/BANK-CHURN-PREDICTION.git //replace <TOKEN> with PAT keys you created.
+!git remote set-url origin https://.............the token......@github.com/Adamsomondi/BANK-CHURN-PREDICTION.git
 ```
 
 **Push Your Branch Using HTTPS**
