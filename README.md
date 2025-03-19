@@ -46,7 +46,7 @@ df = pd.read_csv(file_url)
 df
 ```
 
-## HOW TO WORK ON YOUR OWN NOTEBOOK 
+## HOW TO WORK ON YOUR OWN NOTEBOOK.
 
 Before this rename your notebook to what you are working on i.e edaanalysis.ipynb,Datacleaning.ipynb<b> don't leave it to untitled.ipynb</b>
 
@@ -96,6 +96,7 @@ drive.mount('/content/drive')
 
  # Commit your changes
 !git commit -m "Updated data cleaning" #write a message "finished data Cleaning/added eda analysis"
+
 ```
 
  ## Push Your Branch
@@ -121,21 +122,23 @@ Insert a fifth cell and run:
 !git remote set-url origin https://the token@github.com/Adamsomondi/BANK-CHURN-PREDICTION.git #replace the token with what you copied
 ```
 
-**Push Your Branch Using HTTPS**
+# Push Your Branch Using HTTPS
 
 ```sh
 !git push origin your-branch-name # Replace with your actual branch name you created earlier
+
 ```
 
  ## Create a Pull Request
+ 
  Once you are ready to merge your changes into the main branch, create a pull request on GitHub. This allows other team members to review your work before it is merged.
  
-Go to the Repository on GitHub
+ Go to the Repository on GitHub
 
-Navigate to the repository on GitHub (https://github.com/Adamsomondi/BANK-CHURN-PREDICTION).
+ Navigate to the repository on GitHub (https://github.com/Adamsomondi/BANK-CHURN-PREDICTION).
 
 
-Switch to Your Branch from github
+ Switch to Your Branch from github
 
 Switch to the branch you just pushed by selecting it from the branch dropdown menu.
 
