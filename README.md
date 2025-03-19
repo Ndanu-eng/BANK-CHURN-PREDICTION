@@ -74,7 +74,7 @@ drive.mount('/content/drive')
 !ls -la "/content/drive/My Drive/Colab Notebooks"
 !find "/content/drive/My Drive" -name "Datacleaning.ipynb"
 
-!mv "/content/drive/My Drive/Colab Notebooks/Datacleaning.ipynb" /content/BANK-CHURN-PREDICTION/
+!cp "/content/drive/My Drive/Colab Notebooks/Datacleaning.ipynb" /content/BANK-CHURN-PREDICTION/
 
 !ls -la "/content/BANK-CHURN-PREDICTION/"
 ```
