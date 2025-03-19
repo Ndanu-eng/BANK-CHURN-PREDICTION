@@ -1,14 +1,14 @@
 ---
-# FOR TEAM MEMBERS 
+# GUIDE FOR TEAM MEMBERS 
 
 ## Overview
 This project uses a  Bank churn Kaggle dataset stored in **Google Drive** for easy access by all team members. We will work collaboratively using **Google Colab** notebooks, ensuring everyone can load and analyze the dataset without downloading it locally.
 
 ## HOW TO USE THIS GITHUB REPOSITORY AS A TEAM
 
-Open google colab new notebook From your Chrome Browser:
+Open google colab https://colab.google/
 
- https://colab.google/
+ Open  a new notebook
 
 Inside the first colab code cell Run:
 
@@ -33,7 +33,6 @@ Inside the first colab code cell Run:
 
 ## HOW TO USE THE DATASET AS A TEAM
 
- ## Option 1-Easy
  Insert a new second colab code cell then Run:
  
  ```sh
@@ -50,50 +49,23 @@ df = pd.read_csv(file_url)
 df.describe()
 ```
 
-# Option 2-Flexibility
-Click the BankChurn shared folder link below then open shared tab inside Google drive to make sure you can access it.
-
-```sh
-https://drive.google.com/drive/folders/1kyYj-jEOInyj-Kes1PoSz9AWVXCCSYmQ?usp=sharing
-```
-
- Open a google Colab NewNotebook then Run:
- 
-```python
-from google.colab import drive
-drive.mount('/content/gdrive')
-```
-
- **Set the dataset path:**
- 
-```python
-csv_path = "/content/gdrive/My Drive/BankChurn/Customer-Churn-Records.csv"
-```
-
- **Load the dataset in Pandas:**
- 
-```python
-import pandas as pd
-df = pd.read_csv(csv_path)
-
-# Describe the data
-df.describe()
-```
-
 ## HOW TO WORK ON YOUR OWN NOTEBOOK
 
- **Create a New Branch:**
+Before this rename your notebook to what you are working on i.e edaanalysis.ipynb  <b> don't leave it to untitled.ipynb</b>
+
+ ### Create a New Branch: 
    Each team member should create their own branch to work on their notebook. This helps in keeping the main branch clean and allows for easy merging of changes.
 
- # Create a new branch
  Insert a new third cell and run:
  
  ```sh
- #Replace you-branch-name with what you are working on i.e Datacleaning
+ #Replace you-branch-name with what you are working on i.e edaanalysis
  !git checkout -b your-branch-name
   ```
 
 ## Move the colab  file to your working directory
+
+Replace the datacleaning.ipynb with your file i.e edaanalysis.ipynb
 
 ```sh
 from google.colab import drive
@@ -107,17 +79,23 @@ drive.mount('/content/drive')
 !ls -la "/content/BANK-CHURN-PREDICTION/"
 ```
 
+## WORK ON YOUR NOTEBOOK
+
+The work is allocated according to each Person according to every Milestones.Every person Creates their notebook and works on it.
+ 
 # After working on your notebook
  
 ```sh
-   # Add your changes
-!git config --global user.name "You Name" #replace your github name.
-!git config --global user.email "you@example.com" #replace your github gmail.
+# Save the cleaned notebook
+!jupyter nbconvert --to notebook --inplace Datacleaning.ipynb
+
+# Git commands to push the changes adding your changes
+!git config --global user.name "Adamsomondi" #replace your github name.
+!git config --global user.email "mustafajohnson123@gmail.com" #replace your github gmail.
 !git add .
 
    # Commit your changes
-!git commit -m "Describe your changes" #write a message "finished data Cleaning"
-```
+!git commit -m "Updated data cleaning" #write a message "finished data Cleaning/added eda analysis"
 
  ## Push Your Branch
  
@@ -136,7 +114,8 @@ Click Generate token and copy the token. You will not be able to see it again, s
  **Set the Remote URL to Use HTTPS**
  
  ```sh
- !git remote set-url origin https://<TOKEN>@github.com/Adamsomondi/BANK-CHURN-PREDICTION.git //replace <TOKEN> with PAT keys you created.
+#!git remote set-url origin https://<TOKEN>@github.com/Adamsomondi/BANK-CHURN-PREDICTION.git //replace <TOKEN> with PAT keys you created.
+!git remote set-url origin https://.............the token......@github.com/Adamsomondi/BANK-CHURN-PREDICTION.git
 ```
 
 **Push Your Branch Using HTTPS**
@@ -146,11 +125,22 @@ Click Generate token and copy the token. You will not be able to see it again, s
 ```
 
  ## Create a Pull Request
-   Once you are ready to merge your changes into the main branch, create a pull request on GitHub. This allows other team members to review your work before it is merged.
+ Once you are ready to merge your changes into the main branch, create a pull request on GitHub. This allows other team members to review your work before it is merged.
+ 
+Go to the Repository on GitHub
+
+Navigate to the repository on GitHub (https://github.com/Adamsomondi/BANK-CHURN-PREDICTION).
+
+
+Switch to Your Branch i.e mine is datacleaning
+
+Switch to the branch you just pushed by selecting it from the branch dropdown menu.
+
+Create a Pull Request
 
  ## Reviewed and Merged
    Other team members should review the pull request. Once it is approved, it can be merged into the main branch
-   
+  
  ---
  
 # BANK-CHURN-PREDICTION
