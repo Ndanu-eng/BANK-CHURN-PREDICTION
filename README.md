@@ -8,7 +8,7 @@ This project uses a  Bank churn Kaggle dataset stored in **Google Drive** for ea
 
 Open google colab https://colab.google/
 
- Open new notebook
+ Open  a new notebook
 
 Inside the first colab code cell Run:
 
