@@ -81,19 +81,21 @@ drive.mount('/content/drive')
 
 ## WORK ON YOUR NOTEBOOK
 
-The work is allocated according to each Person according to every Milestones.
+The work is allocated according to each Person according to every Milestones.Every person Creates their notebook and works on it.
  
 # After working on your notebook
  
 ```sh
-   # Add your changes
-!git config --global user.name "You Name" #replace your github name.
-!git config --global user.email "you@example.com" #replace your github gmail.
+# Save the cleaned notebook
+!jupyter nbconvert --to notebook --inplace Datacleaning.ipynb
+
+# Git commands to push the changes adding your changes
+!git config --global user.name "Adamsomondi" #replace your github name.
+!git config --global user.email "mustafajohnson123@gmail.com" #replace your github gmail.
 !git add .
 
    # Commit your changes
-!git commit -m "Describe your changes" #write a message "finished data Cleaning"
-```
+!git commit -m "Updated data cleaning" #write a message "finished data Cleaning/added eda analysis"
 
  ## Push Your Branch
  
