@@ -120,6 +120,7 @@ Insert a fifth cell and run:
  ```sh
 #!git remote set-url origin https://<TOKEN>@github.com/Adamsomondi/BANK-CHURN-PREDICTION.git  #replace <TOKEN> with PAT keys you created.
 !git remote set-url origin https://the token@github.com/Adamsomondi/BANK-CHURN-PREDICTION.git #replace the token with what you copied
+
 ```
 
 # Push Your Branch Using HTTPS
@@ -129,8 +130,8 @@ Insert a fifth cell and run:
 
 ```
 
- ## Create a Pull Request
- 
+ # Create a Pull Request
+ <pre>
  Once you are ready to merge your changes into the main branch, create a pull request on GitHub. This allows other team members to review your work before it is merged.
  
  Go to the Repository on GitHub
@@ -143,11 +144,11 @@ Insert a fifth cell and run:
 Switch to the branch you just pushed by selecting it from the branch dropdown menu.
 
 Create a Pull Request
-
+ 
  ## Reviewed and Merged
-   Other team members should review the pull request. Once it is approved, it can be merged into the main branch
-  
- ---
+ Other team members should review the pull request. Once it is approved, it can be merged into the main branch
+</pre>
+  ---
  
 # BANK-CHURN-PREDICTION
 ## Milestone 1
