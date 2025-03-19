@@ -119,8 +119,8 @@ Click Generate token and copy the token. You will not be able to see it again, <
 Insert a fifth cell and run:
 
  ```sh
-#!git remote set-url origin https://<TOKEN>@github.com/Adamsomondi/BANK-CHURN-PREDICTION.git //replace <TOKEN> with PAT keys you created.
-!git remote set-url origin https://the token@github.com/Adamsomondi/BANK-CHURN-PREDICTION.git //replace the token with what you copied
+#!git remote set-url origin https://<TOKEN>@github.com/Adamsomondi/BANK-CHURN-PREDICTION.git  #replace <TOKEN> with PAT keys you created.
+!git remote set-url origin https://the token@github.com/Adamsomondi/BANK-CHURN-PREDICTION.git #replace the token with what you copied
 ```
 
 **Push Your Branch Using HTTPS**
@@ -137,7 +137,7 @@ Go to the Repository on GitHub
 Navigate to the repository on GitHub (https://github.com/Adamsomondi/BANK-CHURN-PREDICTION).
 
 
-Switch to Your Branch i.e mine is datacleaning
+Switch to Your Branch from github
 
 Switch to the branch you just pushed by selecting it from the branch dropdown menu.
 
