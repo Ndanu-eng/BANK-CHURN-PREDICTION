@@ -1,19 +1,19 @@
 ---
 # FOR TEAM MEMBERS
 
-## Overview
-This project uses a  Bank churn Kaggle dataset stored in **Google Drive** for easy access by all team members. We will work collaboratively using **Google Colab**, ensuring everyone can load and analyze the dataset without downloading it locally.
+## Project Overview
+This project uses a  Bank churn Kaggle dataset stored in **Google Drive** for easy access by all team members. We will work collaboratively using **Google Colab** notebooks, ensuring everyone can load and analyze the dataset without downloading it locally.
 
 # HOW TO USE THE DATASET AS A TEAM
- Open Google Colab from Chrome browser sign up and login with your gmail.
+ Open Google Colab from  your Chrome browser.
 
  ## Option 1
- Open a google Colab NewNotebook then Run:
+ Open a google Colab New Notebook then Run:
  
  ```sh
  import pandas as pd
 
-# Correct direct file link (Replace FILE_ID with your actual file ID)
+# Correct direct file link
 file_id = "1-6FhvYRRgceTptrIMfgvaXkq-QKw8dwf"
 file_url = f"https://drive.google.com/uc?id={file_id}"
 
@@ -25,12 +25,13 @@ df.describe()
 ```
 
 # Option 2
-Click the BankChurn folder link below then open shared inside Google drive to make sure you can access it.
+Click the BankChurn shared folder link below then open shared tab inside Google drive to make sure you can access it.
 
 ```sh
 https://drive.google.com/drive/folders/1kyYj-jEOInyj-Kes1PoSz9AWVXCCSYmQ?usp=sharing
 ```
- Open a google Colab NewNotebook then Run
+
+ Open a google Colab NewNotebook then Run:
  
 ```python
 from google.colab import drive
@@ -55,9 +56,53 @@ df.describe()
  ---
  
 # BANK-CHURN-PREDICTION
-
+## Milestone 1
 
 ![Screenshot](https://github.com/Adamsomondi/BANK-CHURN-PREDICTION/blob/main/images/Screenshot%202025-03-19%20031243.png)
+
+## Data Understanding
+
+....
+
+....
+
+....
+
+
+## Exploratory Data Analysis
+
+....
+
+....
+
+....
+
+
+## Milestone 2
+## Modelling Approach
+
+....
+
+....
+
+....
+
+## Milestone 3
+## Evaluation Metrics
+
+....
+
+....
+
+....
+
+ 
+
+
+
+
+
+
 
 
 
