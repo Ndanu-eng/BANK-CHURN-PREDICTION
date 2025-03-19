@@ -51,7 +51,7 @@ df.describe()
 
 ## HOW TO WORK ON YOUR OWN NOTEBOOK
 
-Before this rename your notebook to what you are working on i.e edaanalysis.ipynb
+Before this rename your notebook to what you are working on i.e edaanalysis.ipynb  <b> don't leave it to untitled.ipynb</b>
 
  ### Create a New Branch: 
    Each team member should create their own branch to work on their notebook. This helps in keeping the main branch clean and allows for easy merging of changes.
