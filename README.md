@@ -120,20 +120,27 @@ drive.mount('/content/drive')
 ```
 
  **Push Your Branch:**
-   Push your branch to the remote repository.
+ 
+  Before  push your branch to the remote repository.
 
-   Generate an ssh key.
+  **Generate an ssh key.**
+  
+Ask for help
 
    ```sh
 ssh-keygen -t ed25519 -C "your-email@example.com" #replace with your github email.
 ```
- Get the Key
+
+ **Get the Key**
 ```sh
 !cat ~/.ssh/id_ed25519.pub
 ```
 
-Add the ssh key to your Github
+**Add the ssh key to your Github**
 
+Open Github setting-->click SSH keys -->Add the key you added.
+
+**push your branch**
    ```sh
    !git push origin your-branch-name #replace with your actual branch-name
    ```
