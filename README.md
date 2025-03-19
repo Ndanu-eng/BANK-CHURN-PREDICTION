@@ -56,8 +56,8 @@ df.describe()
  
 # BANK-CHURN-PREDICTION
 
-![Screenshot](https://github.com/Adamsomondi/BANK-CHURN-PREDICTION/blob/main/Screenshot%202025-03-19%20031243.png)
 
+![Screenshot](https://github.com/Adamsomondi/BANK-CHURN-PREDICTION/blob/main/Screenshot%202025-03-19%20031243.png)
 
 
 
