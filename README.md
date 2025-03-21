@@ -65,7 +65,9 @@ Work on your notebook according to the task in the milestones.
 
 ## Mount and Copy  your Notebook to a  working directory
 
-Replace the datacleaning.ipynb with the file you are personally working on i.e edaanalysis.ipynb etc..
+Keeps your original notebook safe in Google Drive you can access it later.
+
+Prepares files for execution in an isolated workspace i.e Github.
 
 Insert a third cell and run:
 
@@ -74,14 +76,14 @@ from google.colab import drive
 drive.mount('/content/drive')
 
 !ls -la "/content/drive/My Drive/Colab Notebooks"
-!find "/content/drive/My Drive" -name "Datacleaning.ipynb"
+!find "/content/drive/My Drive" -name "Datacleaning.ipynb" #replace "Datacleaning.ipynb" with the name of your file i.e edaanalysis.ipynb
 
-!cp "/content/drive/My Drive/Colab Notebooks/Datacleaning.ipynb" /content/BANK-CHURN-PREDICTION/
+!cp "/content/drive/My Drive/Colab Notebooks/Datacleaning.ipynb" /content/BANK-CHURN-PREDICTION/ #replace Datacleaning.ipynb with the name of your file
 
 !ls -la "/content/BANK-CHURN-PREDICTION/"
 ```
  
-# After working on your notebook
+# After working on your notebook 
 
  Insert a fourth cell and run:
  
@@ -89,7 +91,7 @@ drive.mount('/content/drive')
 # Git commands to push the changes adding your changes
 !git config --global user.name "Adamsomondi" #replace your own github name.
 !git config --global user.email "mustafajohnson123@gmail.com" #replace your own github gmail.
-!git add .
+!git add . #adds the file
 
  # Commit your changes
 !git commit -m "Updated data cleaning" #write a message "finished data Cleaning/added eda analysis"
@@ -100,15 +102,15 @@ drive.mount('/content/drive')
  
  Before you push your branch to the remote repository.
 
-Generate a PAT Token if you dont have any,
+Generate a PAT Token if you don't have any.
 
 Go to your GitHub Developer Settings. https://github.com/settings/tokens
 
-Click on Generate new token the Token(classic one).
+Click on Generate new token the <b>Token(classic one)</b> do not generate fine grained token.
 
 Select the scopes or permissions you need, such as repo for full control of private repositories.
 
-Click Generate token and <b>copy the token<b>. You will not be able to see it again, <b>so save it securely</b>.
+Click Generate token and <b>copy the token</b>. You will not be able to see it again, <b>so save it securely</b>.
 
  Set the Remote URL to Use HTTPS
 
@@ -128,7 +130,7 @@ Insert a fifth cell and run:
 ```
 
  # Create a Pull Request
- <pre>
+
  Once you are ready to merge your changes into the main branch, create a pull request on GitHub. This allows other team members to review your work before it is merged.
  
  Go to the Repository on GitHub
@@ -144,7 +146,7 @@ Create a Pull Request
  
  ## Reviewed and Merged
  Other team members should review the pull request. Once it is approved, it can be merged into the main branch
-</pre>
+
   ---
  
 # BANK-CHURN-PREDICTION
