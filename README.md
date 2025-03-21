@@ -50,6 +50,8 @@ df
 
 Before this rename your notebook to what you are working on i.e edaanalysis.ipynb,Datacleaning.ipynb<b> don't leave it to untitled.ipynb</b>
 
+Work on your notebook,Google Colab allows you to collaborate with others.You can work with someone.
+
  ### Create a New Branch: 
  
  Each team member should create their own branch to work on their notebook. This helps in keeping the main branch clean and allows for easy merging of changes.
