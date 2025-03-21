@@ -61,11 +61,6 @@ Before this rename your notebook to what you are working on i.e edaanalysis.ipyn
  !git checkout -b your-branch-name -q #meaning quite mode
   ```
 
-## WORK ON YOUR NOTEBOOK
-
-Every person Creates their notebook according to the task in the milestone and works on it then pushes it.
-
-
 ## Mount and Copy  your Notebook to a  working directory
 
 Replace the datacleaning.ipynb with the file you are personally working on i.e edaanalysis.ipynb etc..
