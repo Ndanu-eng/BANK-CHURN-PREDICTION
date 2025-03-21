@@ -2,7 +2,7 @@
 # GUIDE FOR TEAM MEMBERS 
 
 ## Overview
-This project uses a  Bank churn Kaggle dataset stored in **Google Drive** for easy access by all team members. We will work collaboratively using **Google Colab** notebook.
+This project uses a  Bank churn Kaggle dataset stored in **Google Drive** for easy access by all team members. We will work collaboratively using **Google Colab** notebook
 
 ## HOW TO USE THIS GITHUB REPOSITORY AS A TEAM
 
