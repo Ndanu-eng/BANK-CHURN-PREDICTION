@@ -63,7 +63,7 @@ Work on your notebook according to the task in the milestones.
  !git checkout -b your-branch-name -q #meaning quite mode
   ```
 
-## Mount and Copy  your Notebook to a  working directory
+## Mount and Copy  your Notebook to a Google Drive
 
 Keeps your original notebook safe in Google Drive you can access it later.
 
