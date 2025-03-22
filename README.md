@@ -48,7 +48,7 @@ df
 
 ## HOW TO WORK ON YOUR OWN NOTEBOOK.
 
-Before this rename your notebook to what you are working on i.e edaanalysis.ipynb,Datacleaning.ipynb<b> don't leave it to untitled.ipynb</b>
+Before this rename your notebook to what you are working on i.e Data_Preprocessing.ipynb edaanalysis.ipynb<b> don't leave it to untitled.ipynb</b>
 
 Work on your notebook according to the task in the milestones.
 
@@ -59,7 +59,7 @@ Work on your notebook according to the task in the milestones.
  Insert a new third cell and run:
  
  ```sh
- #Replace you-branch-name with what you are working on i.e edaanalysis,datacleaning, etc..
+ #Replace you-branch-name with what you are working on i.e edaanalysis etc..
  !git checkout -b your-branch-name -q #meaning quite mode
   ```
 
@@ -76,9 +76,9 @@ from google.colab import drive
 drive.mount('/content/drive')
 
 !ls -la "/content/drive/My Drive/Colab Notebooks"
-!find "/content/drive/My Drive" -name "Datacleaning.ipynb" #replace "Datacleaning.ipynb" with the name of your file i.e edaanalysis.ipynb
+!find "/content/drive/My Drive" -name "Data_Preprocessing.ipynb" #replace "Data_Preprocessing.ipynb" with the name of your file i.e edaanalysis.ipynb
 
-!cp "/content/drive/My Drive/Colab Notebooks/Datacleaning.ipynb" /content/BANK-CHURN-PREDICTION/ #replace Datacleaning.ipynb with the name of your file
+!cp "/content/drive/My Drive/Colab Notebooks/Data_Preprocessing.ipynb" /content/BANK-CHURN-PREDICTION/ #replace Data_Preprocessing.ipynb with the name of your file
 
 !ls -la "/content/BANK-CHURN-PREDICTION/"
 ```
@@ -94,7 +94,7 @@ drive.mount('/content/drive')
 !git add . #adds the file
 
  # Commit your changes
-!git commit -m "Updated data cleaning" #write a message "finished data Cleaning/added eda analysis"
+!git commit -m " Finished Data_Preprocessing.ipynb file" #write a message "finished eda analysis"
 
 ```
 
