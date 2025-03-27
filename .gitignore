@@ -1,4 +1,6 @@
-//list og files to ignore
+//list of files to ignored files
 
+data/cleaned_data.csv
+data/cleaned_data.csv
 data/cleaned_data.csv
 data/cleaned_data.csv
