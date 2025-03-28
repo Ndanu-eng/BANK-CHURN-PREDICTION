@@ -60,6 +60,14 @@ The project goal is to use this model to help the bank to retain its customers s
 <b>c.Data Quality Handling</b>
    
    Detected and resolved outliers, ensuring consistency in data.
+   
+   #### Summary
+   
+   Started by identifying missing values in the dataset to check for any incomplete records. Next, I handled categorical variables by applying one-hot encoding, which converts text-based data into numerical format so that machine learning models can understand it. After that, I scaled numerical features using StandardScaler to ensure all numerical data is on the same scale, improving model performance.
+
+To maintain data quality, I detected and removed outliers using the Z-score method, which filters out extreme values that could negatively impact model accuracy. I also removed duplicate rows to prevent redundant information from skewing the results. Once the data was clean, I saved the processed dataset into a dedicated data/ directory to keep things organized.
+
+Finally, I updated the .gitignore file to exclude the cleaned dataset from version control. This prevents large or unnecessary files from being tracked in Git, keeping the repository clean and efficient. By following this structured approach, I ensured that the dataset was properly cleaned, optimized, and ready for analysis.
 
   ### Exploratory Data Analysis
   
