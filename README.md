@@ -73,13 +73,13 @@ Used histograms, box plots, and scatter plots to explore trends, distributions, 
 
 ## Milestone  2
 
-### Step 3.Data Modelling
+### Data Modelling
 
 <b>a. Model Selection & Training</b>
 
 Machine learning Model -Logistic Regression.
 
-Split data into training and testing sets (e.g., 80/20 split).
+Splitting data into training and testing sets.
 
 Trained models on the dataset using appropriate hyperparameters.
 
